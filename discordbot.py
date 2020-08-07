@@ -41,7 +41,11 @@ async def loop():
     
     if now == '09:31':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('https://discordapp.com/channels/698412123809644644/740511753149874266/740550705521098812') 
+        await channel.send('https://cdn.discordapp.com/attachments/740511753149874266/740548095682674749/xjp-top2.png') 
+
+    if now == '10:31':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/740511753149874266/740547865230704720/wave02.png') 
         
     if now == '11:31':
         channel = client.get_channel(CHANNEL_ID)
@@ -54,6 +58,10 @@ async def loop():
     if now == '13:50':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/740511753149874266/740550699162664980/XJP_LOGO.png')
+        
+    if now == '14:31':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/740511753149874266/740547865230704720/wave02.png') 
           
     if now == '15:48':
         channel = client.get_channel(CHANNEL_ID)
@@ -65,7 +73,11 @@ async def loop():
         
     if now == '19:48':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('https://discordapp.com/channels/698412123809644644/740511753149874266/740548333646381086')
+        await channel.send('https://cdn.discordapp.com/attachments/740511753149874266/740548333420150784/xjptop02.png')
+
+    if now == '20:48':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:xjp_coin:739314187532107846> <:xjp_coin:739314187532107846> <:xjp_coin:739314187532107846> ')
         
     if now == '22:48':
         channel = client.get_channel(CHANNEL_ID)
